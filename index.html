@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SBAC Bank PLC - সাউথ বাংলা এগ্রিকালচার অ্যান্ড কমার্স ব্যাংক</title>
+
+  <!-- SEO & Meta Tags -->
+  <meta name="description"
+    content="সাউথ বাংলা এগ্রিকালচার অ্যান্ড কমার্স (এসবিএসি) ব্যাংক পিএলসি - বিশ্বস্ত ব্যাংকিং সেবা, সেভিংস অ্যাকাউন্ট, ডিপিএস, লোন, কার্ড এবং BanglaPay ডিজিটাল ব্যাংকিং।" />
+  <meta name="keywords"
+    content="SBAC Bank, South Bangla Agriculture and Commerce Bank, BanglaPay, Islamic Banking, DPS, Fixed Deposit, Bangladesh Bank" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Markdown parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css?v=3" />
+</head>
+
+<body class="website-body mode-customer">
+
+  <!-- =========================================================================
+       1. SBAC BANK MAIN WEBSITE HOMEPAGE
+       ========================================================================= -->
+
+  <!-- Top Utility Bar -->
+  <div class="top-util-bar">
+    <div class="site-container util-flex">
+      <div class="util-left">
+        <span class="util-item"><i class="fa-solid fa-phone-volume text-accent"></i> হটলাইন: <a href="tel:16327"
+            class="util-link bold">16327</a></span>
+        <span class="util-sep">|</span>
+        <span class="util-item"><i class="fa-solid fa-globe text-accent"></i> বিদেশ থেকে: <a href="tel:+8809612016327"
+            class="util-link">+880 9612 016327</a></span>
+        <span class="util-sep hide-sm">|</span>
+        <span class="util-item hide-sm"><i class="fa-regular fa-envelope"></i> info@sbacbank.com</span>
+      </div>
+      <div class="util-right">
+        <a href="https://www.sbacbank.com/locations" target="_blank" class="util-link"><i
+            class="fa-solid fa-location-dot"></i> শাখা ও এটিএম</a>
+        <a href="https://www.sbacbank.com/interest-rates" target="_blank" class="util-link"><i
+            class="fa-solid fa-percent"></i> সুদের হার</a>
+        <a href="https://career.sbacdigital.com" target="_blank" class="util-link hide-sm"><i
+            class="fa-solid fa-briefcase"></i> ক্যারিয়ার</a>
+        <a href="https://ibank.sbacbank.com:8080" target="_blank" class="top-ibanking-btn">
+          <i class="fa-solid fa-lock"></i> BanglaPay লগইন
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Website Header & Navigation -->
+  <header class="site-header">
+    <div class="site-container header-flex">
+      <a href="#" class="brand-logo-wrap">
+        <img src="sbac-logo.png" alt="SBAC Bank PLC Official Logo" class="brand-logo-img"
+          onerror="this.src='https://www.sbacbank.com/images/logos/logo-full.png'">
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown">
+            <a href="#accounts" class="nav-link">অ্যাকাউন্ট ও ডিপোজিট <i
+                class="fa-solid fa-chevron-down nav-arrow"></i></a>
+            <div class="nav-dropdown">
+              <a href="#accounts" class="drop-link"><i class="fa-solid fa-piggy-bank"></i> সেভিংস ডিপোজিট অ্যাকাউন্ট</a>
+              <a href="#accounts" class="drop-link"><i class="fa-solid fa-briefcase"></i> কারেন্ট / চলতি হিসাব</a>
+              <a href="#accounts" class="drop-link"><i class="fa-solid fa-graduation-cap"></i> পড়ুয়া স্টুডেন্ট
+                অ্যাকাউন্ট</a>
+              <a href="#accounts" class="drop-link"><i class="fa-solid fa-chart-line"></i> ডিপিএস ও লাখপতি স্কিম</a>
+              <a href="#accounts" class="drop-link"><i class="fa-solid fa-vault"></i> ফিক্সড ডিপোজিট (FDR)</a>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#loans" class="nav-link">ঋণ ও লোন সেবা <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+            <div class="nav-dropdown">
+              <a href="#loans" class="drop-link"><i class="fa-solid fa-house-chimney"></i> হোম লোন (গৃহ ঋণ)</a>
+              <a href="#loans" class="drop-link"><i class="fa-solid fa-car"></i> অটো / গাড়ি লোন</a>
+              <a href="#loans" class="drop-link"><i class="fa-solid fa-user-tie"></i> পার্সোনাল লোন</a>
+              <a href="#loans" class="drop-link"><i class="fa-solid fa-wheat-awn"></i> সহজ কৃষি ও ডেইরি ঋণ</a>
+              <a href="#loans" class="drop-link"><i class="fa-solid fa-store"></i> CMSME ও নারী উদ্যোক্তা ঋণ</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#islamic" class="nav-link"><span class="badge-islamic">তাকওয়া</span> ইসলামিক ব্যাংকিং</a>
+          </li>
+          <li class="nav-item">
+            <a href="#cards" class="nav-link">কার্ড সেবা</a>
+          </li>
+          <li class="nav-item">
+            <a href="#banglapay" class="nav-link">BanglaPay অ্যাপ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">যোগাযোগ</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <a href="https://sbacdigital.com" target="_blank" class="btn-ekyc-open">
+          <i class="fa-solid fa-bolt"></i> ই-কেওয়াইসি অ্যাকাউন্ট
+        </a>
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner Section -->
+  <section class="hero-section">
+    <div class="site-container hero-grid">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="pulse-dot"></span>
+          <span>স্মার্ট ব্যাংকিং ও নিরাপদ আর্থিক ভবিষ্যৎ</span>
+        </div>
+        <h1 class="hero-title">
+          আপনার আর্থিক সমৃদ্ধিতে <br />
+          <span class="gradient-text">SBAC Bank PLC</span> সর্বদা পাশে
+        </h1>
+        <p class="hero-desc">
+          আধুনিক ডিজিটাল ব্যাংকিং, আকর্ষণীয় মুনাফায় সঞ্চয় স্কিম, সহজ শর্তে কৃষি ও ব্যবসা ঋণ এবং ২৪/৭ নিরবচ্ছিন্ন
+          BanglaPay অ্যাপ সুবিধা।
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="https://sbacdigital.com" target="_blank" class="btn-primary-hero">
+            <i class="fa-solid fa-user-check"></i> ঘরে বসে অ্যাকাউন্ট খুলুন
+          </a>
+          <button class="btn-secondary-hero" id="heroChatTriggerBtn">
+            <i class="fa-solid fa-headset"></i> এআই সহায়কের সাথে কথা বলুন
+          </button>
+        </div>
+
+        <!-- Key Highlight Counters -->
+        <div class="hero-stats">
+          <div class="stat-card">
+            <strong class="stat-num">৮৫+</strong>
+            <span class="stat-lbl">শাখা ও উপশাখা</span>
+          </div>
+          <div class="stat-card">
+            <strong class="stat-num">২৪/৭</strong>
+            <span class="stat-lbl">BanglaPay ডিজিটাল সেবা</span>
+          </div>
+          <div class="stat-card">
+            <strong class="stat-num">১০০%</strong>
+            <span class="stat-lbl">নিরাপদ ও নির্ভরযোগ্য</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Card -->
+      <div class="hero-visual">
+        <div class="hero-card-stack">
+          <div class="floating-promo-card main-promo">
+            <div class="promo-header">
+              <div class="promo-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div>
+                <h4>স্মার্ট ডিজিটাল সেবা</h4>
+                <p>সব ব্যাংকিং এখন হাতের মুঠোয়</p>
+              </div>
+            </div>
+            <div class="promo-features-mini">
+              <div class="p-feat"><i class="fa-solid fa-circle-check"></i> ইনস্ট্যান্ট বিকাশ ও নগদ ট্রান্সফার</div>
+              <div class="p-feat"><i class="fa-solid fa-circle-check"></i> জিরো পেপারওয়ার্ক ই-কেওয়াইসি</div>
+              <div class="p-feat"><i class="fa-solid fa-circle-check"></i> ডুয়েল কারেন্সি ভিসা ও মাস্টারকার্ড</div>
+            </div>
+            <div class="promo-footer">
+              <a href="https://ibank.sbacbank.com:8080" target="_blank" class="promo-link-btn">
+                ইন্টারনেট ব্যাংকিং পোর্টাল <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Mini floating badges -->
+          <div class="float-badge hotline-float">
+            <i class="fa-solid fa-phone-volume"></i>
+            <div>
+              <small>২৪ ঘণ্টা হটলাইন</small>
+              <strong>16327</strong>
+            </div>
+          </div>
+
+          <div class="float-badge dps-float">
+            <i class="fa-solid fa-coins"></i>
+            <div>
+              <small>ডাবল ও ট্রিপল বেনিফিট</small>
+              <strong>আকর্ষণীয় মুনাফা</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Digital Service Portals (6 Highlights) -->
+  <section class="quick-portals-section">
+    <div class="site-container">
+      <div class="portals-grid">
+        <a href="https://sbacdigital.com" target="_blank" class="portal-card">
+          <div class="portal-icon bg-purple"><i class="fa-solid fa-user-plus"></i></div>
+          <div class="portal-info">
+            <h3>ই-কেওয়াইসি অ্যাকাউন্ট</h3>
+            <p>মিনিটেই ঘরে বসে পেপারলেস অ্যাকাউন্ট</p>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square portal-arrow"></i>
+        </a>
+
+        <a href="https://ibank.sbacbank.com:8080" target="_blank" class="portal-card">
+          <div class="portal-icon bg-blue"><i class="fa-solid fa-laptop-code"></i></div>
+          <div class="portal-info">
+            <h3>ইন্টারনেট ব্যাংকিং</h3>
+            <p>BanglaPay ওয়েব পোর্টাল লগইন</p>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square portal-arrow"></i>
+        </a>
+
+        <a href="https://www.sbacbank.com/emi-calculator" target="_blank" class="portal-card">
+          <div class="portal-icon bg-emerald"><i class="fa-solid fa-calculator"></i></div>
+          <div class="portal-info">
+            <h3>ইএমআই ক্যালকুলেটর</h3>
+            <p>লোন ও ডিপিএস মুনাফা হিসেব করুন</p>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square portal-arrow"></i>
+        </a>
+
+        <a href="https://www.sbacbank.com/locations" target="_blank" class="portal-card">
+          <div class="portal-icon bg-amber"><i class="fa-solid fa-map-location-dot"></i></div>
+          <div class="portal-info">
+            <h3>শাখা ও এটিএম লোকেশন</h3>
+            <p>নিকটস্থ ব্রাঞ্চ ও বুথ খুঁজুন</p>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square portal-arrow"></i>
+        </a>
+
+        <a href="https://www.sbacbank.com/interest-rates" target="_blank" class="portal-card">
+          <div class="portal-icon bg-rose"><i class="fa-solid fa-chart-pie"></i></div>
+          <div class="portal-info">
+            <h3>সুদের হার ও চার্জ</h3>
+            <p>হালনাগাদ ইন্টারেস্ট রেট শিডিউল</p>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square portal-arrow"></i>
+        </a>
+
+        <a href="tel:16327" class="portal-card hotline-card">
+          <div class="portal-icon bg-purple-dark"><i class="fa-solid fa-headset"></i></div>
+          <div class="portal-info">
+            <h3>২৪/৭ কাস্টমার কেয়ার</h3>
+            <p>কল করুন ১৬৩২৭ নম্বরে</p>
+          </div>
+          <i class="fa-solid fa-phone-flip portal-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Banking Products Section -->
+  <section class="products-section" id="accounts">
+    <div class="site-container">
+      <div class="section-head text-center">
+        <span class="sub-tag"><i class="fa-solid fa-gem"></i> আমাদের পণ্য ও সেবাসমূহ</span>
+        <h2 class="section-title">আপনার প্রয়োজন অনুযায়ী সেরা ব্যাংকিং সমাধান</h2>
+        <p class="section-subtitle">ব্যক্তিগত সঞ্চয় থেকে শুরু করে বৃহৎ ব্যবসা — প্রতিটি ধাপে আমরা আছি আপনার সাথে</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Card 1 -->
+        <div class="product-item-card">
+          <div class="prod-badge">জনপ্রিয়</div>
+          <div class="prod-icon-box"><i class="fa-solid fa-piggy-bank"></i></div>
+          <h3>সঞ্চয়ী ও ডিপিএস স্কিম</h3>
+          <p>সেভিংস, মাসিক ডিপিএস, লাখপতি স্কিম, ডাবল ও ট্রিপল বেনিফিট ফিক্সড ডিপোজিট অ্যাকাউন্ট।</p>
+          <ul class="prod-features">
+            <li><i class="fa-solid fa-check"></i> আকর্ষণীয় চক্রবৃদ্ধি সুদের হার</li>
+            <li><i class="fa-solid fa-check"></i> যেকোনো শাখা থেকে সহজ লেনদেন</li>
+            <li><i class="fa-solid fa-check"></i> ফ্রি ইন্টারনেট ও মোবাইল ব্যাংকিং</li>
+          </ul>
+          <button class="btn-learn-more query-btn" data-query="ডিপিএস ও ফিক্সড ডিপোজিট স্কিম সম্পর্কে বিস্তারিত বলুন">
+            তথ্য জানুন <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="product-item-card" id="islamic">
+          <div class="prod-badge islamic-badge">তাকওয়া শরিয়াহ</div>
+          <div class="prod-icon-box islamic-icon"><i class="fa-solid fa-moon"></i></div>
+          <h3>তাকওয়া ইসলামিক ব্যাংকিং</h3>
+          <p>সম্পূর্ণ শরিয়াহ সম্মত মুদারাবা সঞ্চয়ী হিসাব, হজ সঞ্চয় স্কিম ও মুরাবাহা বিনিয়োগ সুবিধা।</p>
+          <ul class="prod-features">
+            <li><i class="fa-solid fa-check"></i> সম্পূর্ণ সুদবিহীন ও হালাল মুনাফা</li>
+            <li><i class="fa-solid fa-check"></i> অভিজ্ঞ শরিয়াহ সুপারভাইজরি বোর্ড</li>
+            <li><i class="fa-solid fa-check"></i> মুদারাবা ও মুশারাকা স্কিম</li>
+          </ul>
+          <button class="btn-learn-more query-btn" data-query="Islamic Banking তাকওয়া সেবা সম্পর্কে বিস্তারিত বলুন">
+            তথ্য জানুন <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="product-item-card" id="loans">
+          <div class="prod-badge">সহজ শর্তে</div>
+          <div class="prod-icon-box"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+          <h3>ঋণ ও অর্থায়ন সুবিধা</h3>
+          <p>হোম লোন, পার্সোনাল লোন, অটো লোন, কৃষি ও নারী উদ্যোক্তা লোন সহজ কিস্তিতে।</p>
+          <ul class="prod-features">
+            <li><i class="fa-solid fa-check"></i> দ্রুততম সময়ে লোন প্রসেসিং</li>
+            <li><i class="fa-solid fa-check"></i> সহজ ও নমনীয় মাসিক কিস্তি</li>
+            <li><i class="fa-solid fa-check"></i> প্রতিযোগিতামূলক সুদের হার</li>
+          </ul>
+          <button class="btn-learn-more query-btn" data-query="লোন এবং ইন্টারেস্ট রেট সুবিধা কি কি আছে?">
+            তথ্য জানুন <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="product-item-card" id="cards">
+          <div class="prod-badge">গ্লোবাল অ্যাক্সেস</div>
+          <div class="prod-icon-box"><i class="fa-regular fa-credit-card"></i></div>
+          <h3>ক্রেডিট ও ডেবিট কার্ড</h3>
+          <p>ইএমভি চিপযুক্ত সুরক্ষিত ডুয়েল কারেন্সি ভিসা ও মাস্টারকার্ড, দেশ-বিদেশে শপিং ও ট্রাভেলের জন্য।</p>
+          <ul class="prod-features">
+            <li><i class="fa-solid fa-check"></i> দেশ-বিদেশে হাজারো আউটলেটে ছাড়</li>
+            <li><i class="fa-solid fa-check"></i> সর্বোচ্চ ৪৫ দিন পর্যন্ত সুদমুক্ত সুবিধা</li>
+            <li><i class="fa-solid fa-check"></i> সহজ ইএমআই (০% ইন্টারেস্টে) সুবিধা</li>
+          </ul>
+          <button class="btn-learn-more query-btn" data-query="ক্রেডিট কার্ড এবং ডেবিট কার্ড সুবিধা কি কি?">
+            তথ্য জানুন <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BanglaPay Mobile App Section -->
+  <section class="banglapay-section" id="banglapay">
+    <div class="site-container banglapay-grid">
+      <div class="banglapay-text">
+        <div class="app-tag"><i class="fa-solid fa-mobile-screen-button"></i> ডিজিটাল ব্যাংকিং অ্যাপ</div>
+        <h2><span class="highlight-pay">BanglaPay</span> — হাতের মুঠোয় আপনার ব্যাংক</h2>
+        <p>
+          সাউথ বাংলা এগ্রিকালচার অ্যান্ড কমার্স ব্যাংকের অফিশিয়াল মোবাইল অ্যাপ <strong>BanglaPay</strong> দিয়ে যেকোনো
+          সময় যেকোনো স্থান থেকে করুন স্মার্ট ও নিরাপদ ব্যাংকিং।
+        </p>
+
+        <div class="app-benefits-grid">
+          <div class="app-b-item">
+            <i class="fa-solid fa-bolt-lightning"></i>
+            <div>
+              <strong>ইনস্ট্যান্ট মানি ট্রান্সফার</strong>
+              <span>বিকাশ, নগদ, রকেট ও অন্য যেকোনো ব্যাংকে তাৎক্ষণিক টাকা পাঠান।</span>
+            </div>
+          </div>
+          <div class="app-b-item">
+            <i class="fa-solid fa-qrcode"></i>
+            <div>
+              <strong>বাংলা কিউআর পেমেন্ট</strong>
+              <span>দোকান ও সুপারশপে কিউআর কোড স্ক্যান করে ক্যাশলেস পেমেন্ট।</span>
+            </div>
+          </div>
+          <div class="app-b-item">
+            <i class="fa-solid fa-receipt"></i>
+            <div>
+              <strong>ইউটিলিটি বিল ও রিচার্জ</strong>
+              <span>বিদ্যুৎ, গ্যাস, পানি, ইন্টারনেট বিল ও মোবাইল রিচার্জ পলকেই।</span>
+            </div>
+          </div>
+          <div class="app-b-item">
+            <i class="fa-solid fa-shield-virus"></i>
+            <div>
+              <strong>বায়োমেট্রিক নিরাপত্তা</strong>
+              <span>ফিঙ্গারপ্রিন্ট ও ফেস-আইডি দিয়ে সর্বোচ্চ সুরক্ষা।</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="app-store-buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.sbac&hl=en&gl=US" target="_blank"
+            class="store-badge-btn">
+            <i class="fa-brands fa-google-play"></i>
+            <div>
+              <small>GET IT ON</small>
+              <span>Google Play</span>
+            </div>
+          </a>
+          <a href="https://apps.apple.com/us/app/banglapay/id1445566322" target="_blank" class="store-badge-btn">
+            <i class="fa-brands fa-apple"></i>
+            <div>
+              <small>Download on the</small>
+              <span>App Store</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="banglapay-visual">
+        <div class="phone-mockup-wrapper">
+          <div class="phone-screen">
+            <div class="phone-app-head">
+              <div class="phone-brand">
+                <i class="fa-solid fa-building-columns"></i> SBAC BanglaPay
+              </div>
+              <div class="phone-user"><i class="fa-regular fa-bell"></i></div>
+            </div>
+            <div class="phone-balance-card">
+              <span class="bal-label">স্মার্ট ওয়ালেট ব্যালেন্স</span>
+              <h3 class="bal-amount">৳ ১,২৫,৭৫০.০০</h3>
+              <span class="bal-acc">A/C: 1023 **** 8821</span>
+            </div>
+            <div class="phone-actions-grid">
+              <div class="phone-act-btn"><i class="fa-solid fa-money-bill-transfer"></i><span>Send Money</span></div>
+              <div class="phone-act-btn"><i class="fa-solid fa-wallet"></i><span>Add Money</span></div>
+              <div class="phone-act-btn"><i class="fa-solid fa-mobile-screen"></i><span>Recharge</span></div>
+              <div class="phone-act-btn"><i class="fa-solid fa-file-invoice-dollar"></i><span>Bill Pay</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Website Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="site-container footer-content">
+      <div class="footer-col col-brand">
+        <img src="sbac-logo.png" alt="SBAC Bank Logo" class="footer-logo"
+          onerror="this.src='https://www.sbacbank.com/images/logos/logo-full.png'">
+        <p class="footer-about">
+          সাউথ বাংলা এগ্রিকালচার অ্যান্ড কমার্স (এসবিএসি) ব্যাংক পিএলসি — ৪র্থ প্রজন্মের শীর্ষস্থানীয় বেসরকারি বাণিজ্যিক
+          ব্যাংক।
+        </p>
+        <div class="footer-contact-list">
+          <p><i class="fa-solid fa-location-dot"></i> হেড অফিস: বিএসসি টাওয়ার (৫ম-১৬তম তলা), ২-৩ রাজউক এভিনিউ, মতিঝিল,
+            ঢাকা-১০০০</p>
+          <p><i class="fa-solid fa-phone"></i> হটলাইন: 16327 | +880 9612 016327</p>
+          <p><i class="fa-solid fa-envelope"></i> info@sbacbank.com</p>
+          <p><i class="fa-solid fa-network-wired"></i> SWIFT Code: <strong>SBACBDDH</strong></p>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">প্রয়োজনীয় লিংক</h4>
+        <ul class="footer-links">
+          <li><a href="https://sbacdigital.com" target="_blank">ই-কেওয়াইসি পোর্টাল</a></li>
+          <li><a href="https://ibank.sbacbank.com:8080" target="_blank">BanglaPay ইন্টারনেট ব্যাংকিং</a></li>
+          <li><a href="https://www.sbacbank.com/locations" target="_blank">শাখা ও এটিএম তালিকা</a></li>
+          <li><a href="https://www.sbacbank.com/interest-rates" target="_blank">সুদের হার ও শিডিউল অব চার্জ</a></li>
+          <li><a href="https://www.sbacbank.com/forms" target="_blank">ফরম ডাউনলোড সেন্টার</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">ব্যাংকিং সেবা</h4>
+        <ul class="footer-links">
+          <li><a href="#accounts">সঞ্চয়ী ও চলতি হিসাব</a></li>
+          <li><a href="#accounts">ডিপিএস ও ফিক্সড ডিপোজিট</a></li>
+          <li><a href="#islamic">তাকওয়া ইসলামিক ব্যাংকিং</a></li>
+          <li><a href="#loans">গৃহ ও ব্যক্তিগত ঋণ</a></li>
+          <li><a href="#cards">ভিসা ও মাস্টারকার্ড</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">২৪/৭ এআই সহায়তা</h4>
+        <p class="footer-chat-desc">যেকোনো তথ্য বা সেবা সম্পর্কে জানতে আমাদের ভার্চুয়াল ব্যাংকিং সহায়কের সাথে চ্যাট
+          করুন।</p>
+        <button class="footer-chat-btn" id="footerChatTriggerBtn">
+          <i class="fa-solid fa-headset"></i> এআই চ্যাটবট ওপেন করুন
+        </button>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="site-container bottom-flex">
+        <p>© ২০২৬ সাউথ বাংলা এগ্রিকালচার অ্যান্ড কমার্স ব্যাংক পিএলসি (SBAC Bank PLC)। সর্বস্বত্ব সংরক্ষিত।</p>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i
+              class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i
+              class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- =========================================================================
+       2. FLOATING CIRCULAR CHATBOT LAUNCHER BUTTON (Bottom-Right)
+       ========================================================================= -->
+  <div class="chatbot-float-wrapper" id="chatbotFloatWrapper">
+    <!-- Speech bubble tooltip -->
+    <div class="float-speech-bubble" id="floatSpeechBubble">
+      <span class="bubble-txt">👋 <strong>এসবিএসি স্মার্ট অ্যাসিস্ট্যান্ট!</strong> যেকোনো প্রশ্ন করুন</span>
+      <button class="bubble-close" id="closeFloatTooltipBtn" aria-label="Close tooltip">&times;</button>
+    </div>
+
+    <button class="chatbot-float-btn" id="chatbotFloatBtn" title="SBAC AI চ্যাটবট ওপেন করুন"
+      aria-label="Open SBAC Bank AI Chatbot">
+      <div class="float-btn-inner">
+        <i class="fa-solid fa-headset float-icon-chat"></i>
+        <i class="fa-solid fa-xmark float-icon-close"></i>
+      </div>
+      <span class="float-ping-ring"></span>
+      <span class="float-badge-ai">AI</span>
+    </button>
+  </div>
+
+
+  <!-- =========================================================================
+       3. COMPACT POPUP CHATBOT WIDGET (Bottom-Right Pop-up)
+       ========================================================================= -->
+  <div class="chat-widget-popup" id="chatWidgetPopup">
+    <!-- Widget Header -->
+    <div class="widget-header">
+      <div class="widget-profile">
+        <div class="widget-avatar">
+          <i class="fa-solid fa-headset"></i>
+          <span class="widget-online-dot"></span>
+        </div>
+        <div class="widget-meta">
+          <h4>SBAC এআই ব্যাংকিং অ্যাসিস্ট্যান্ট</h4>
+          <span class="widget-status"><i class="fa-solid fa-circle-check"></i> ২৪/৭ লাইভ অনলাইন</span>
+        </div>
+      </div>
+
+      <div class="widget-controls">
+        <!-- Language Switcher -->
+        <button class="widget-tool-btn" id="widgetLangBtn"
+          title="ভাষা পরিবর্তন করুন (Change Language: English / বাংলা)">
+          <span id="widgetLangText" style="font-weight: 800; font-size: 0.75rem;">EN</span>
+        </button>
+        <!-- Expand to Fullscreen Workspace Button -->
+        <button class="widget-tool-btn" id="widgetExpandBtn"
+          title="বড় পর্দায় বিস্তারিত দেখুন (Expand to Full Interface)">
+          <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+        </button>
+        <!-- Sound Toggle -->
+        <button class="widget-tool-btn" id="widgetSoundBtn" title="সাউন্ড অন/অফ">
+          <i class="fa-solid fa-volume-high"></i>
+        </button>
+        <!-- Close / Minimize -->
+        <button class="widget-tool-btn close-btn" id="widgetCloseBtn" title="মিনিমাইজ করুন">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Scrollable Messages Stream in Widget -->
+    <div class="widget-messages-area" id="widgetMessagesContainer">
+      <!-- Synced dynamically via JS -->
+    </div>
+
+    <!-- Quick Chips for Widget -->
+    <div class="widget-chips-wrapper">
+      <div class="widget-chips-scroll" id="widgetQuickChips">
+        <button class="w-chip-btn" data-query="সেভিংস অ্যাকাউন্ট খুলতে কি কি লাগবে?">
+          <i class="fa-solid fa-id-card"></i> অ্যাকাউন্ট খোলার নিয়ম
+        </button>
+        <button class="w-chip-btn" data-query="BanglaPay অ্যাপের ফিচার কি কি?">
+          <i class="fa-solid fa-mobile-screen"></i> BanglaPay App
+        </button>
+        <button class="w-chip-btn" data-query="ডিপিএস ও ফিক্সড ডিপোজিট স্কিম কি কি আছে?">
+          <i class="fa-solid fa-piggy-bank"></i> ডিপিএস স্কিম
+        </button>
+        <button class="w-chip-btn" data-query="Islamic Banking সেবা সম্পর্কে জানতে চাই">
+          <i class="fa-solid fa-moon"></i> ইসলামিক ব্যাংকিং
+        </button>
+        <button class="w-chip-btn" data-query="হেল্পলাইন ও কাস্টমার কেয়ার নম্বর কত?">
+          <i class="fa-solid fa-headset"></i> হেল্পলাইন
+        </button>
+      </div>
+    </div>
+
+    <!-- Widget Bottom Input Bar -->
+    <div class="widget-input-footer">
+      <form class="widget-form" id="widgetChatForm">
+        <div class="widget-input-box">
+          <textarea id="widgetMessageInput" placeholder="আপনার প্রশ্ন লিখুন (বাংলা বা English)..." rows="1"></textarea>
+          <button type="button" class="widget-mic-btn" id="widgetVoiceBtn" title="ভয়েসে বলুন">
+            <i class="fa-solid fa-microphone"></i>
+          </button>
+        </div>
+        <button type="submit" class="widget-send-btn" id="widgetSendBtn" title="পাঠান">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+      <div class="widget-secure-note">
+        <i class="fa-solid fa-shield-halved"></i> আপনার গোপন পিন বা ওটিপি কারো সাথে শেয়ার করবেন না।
+      </div>
+    </div>
+  </div>
+
+
+  <!-- =========================================================================
+       4. EXPANDED FULLSCREEN AI WORKSPACE MODAL / FULL INTERFACE
+       ========================================================================= -->
+  <div class="fullscreen-chat-modal" id="fullscreenChatModal">
+    <div class="fullscreen-chat-container">
+      <div class="app-layout">
+
+        <!-- Left Navigation Sidebar -->
+        <aside class="sidebar" id="sidebar">
+          <div class="sidebar-top">
+            <div class="bank-logo-wrap">
+              <img src="sbac-logo.png" alt="SBAC Bank PLC Logo" class="sbac-official-logo"
+                onerror="this.src='https://www.sbacbank.com/images/logos/logo-full.png'">
+            </div>
+            <button class="mobile-close-btn" id="closeSidebarBtn" aria-label="Close sidebar">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+
+          <div class="sidebar-content">
+            <!-- 24/7 Hotline Banner -->
+            <div class="hotline-box">
+              <div class="hotline-icon">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <div class="hotline-details">
+                <span class="hotline-tag">২৪/৭ কল সেন্টার</span>
+                <a href="tel:16327" class="hotline-tel">16327</a>
+                <span class="hotline-intl">বিদেশ থেকে: +880 9612 016327</span>
+              </div>
+            </div>
+
+            <!-- Admin Only: Current AI Engine Status -->
+            <div class="engine-status-card admin-only" id="engineStatusCard">
+              <div class="status-top">
+                <span class="status-label"><i class="fa-solid fa-microchip"></i> এআই ইঞ্জিন:</span>
+                <span class="status-pill offline" id="activeEngineBadge"><i class="fa-solid fa-bolt"></i> অফলাইন
+                  মোড</span>
+              </div>
+              <p id="activeEngineDesc">Zero Config: নলেজবেস থেকে সরাসরি উত্তর দিচ্ছে।</p>
+            </div>
+
+            <!-- Banking Hours -->
+            <div class="side-card">
+              <div class="side-card-title">
+                <i class="fa-regular fa-clock"></i> ব্যাংকিং সময়সূচি
+              </div>
+              <div class="schedule-item">
+                <span>রবি - বৃহস্পতি:</span>
+                <strong>সকাল ১০:০০ - বিকাল ৫:০০</strong>
+              </div>
+              <div class="schedule-item closed-day">
+                <span>শুক্র ও শনিবার:</span>
+                <span class="badge-off">বন্ধ</span>
+              </div>
+              <div class="active-badge">
+                <span class="live-dot"></span> ডিজিটাল ব্যাংকিং ও এটিএম ২৪/৭ চালু
+              </div>
+            </div>
+
+            <!-- Quick Banking Portals -->
+            <div class="nav-section">
+              <div class="section-label">প্রয়োজনীয় ডিজিটাল সেবা</div>
+
+              <a href="https://sbacdigital.com" target="_blank" class="nav-link-card">
+                <div class="nav-icon"><i class="fa-solid fa-user-check"></i></div>
+                <div class="nav-text">
+                  <span class="nav-title">ই-কেওয়াইসি অ্যাকাউন্ট</span>
+                  <span class="nav-sub">অনলাইনে অ্যাকাউন্ট খুলুন</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+              </a>
+
+              <a href="https://ibank.sbacbank.com:8080" target="_blank" class="nav-link-card">
+                <div class="nav-icon"><i class="fa-solid fa-globe"></i></div>
+                <div class="nav-text">
+                  <span class="nav-title">ইন্টারনেট ব্যাংকিং</span>
+                  <span class="nav-sub">BanglaPay ওয়েব পোর্টাল</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+              </a>
+
+              <a href="https://www.sbacbank.com/emi-calculator" target="_blank" class="nav-link-card">
+                <div class="nav-icon"><i class="fa-solid fa-calculator"></i></div>
+                <div class="nav-text">
+                  <span class="nav-title">ইএমআই ক্যালকুলেটর</span>
+                  <span class="nav-sub">লোন ও ডিপিএস হিসেব</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+              </a>
+
+              <a href="https://www.sbacbank.com/locations" target="_blank" class="nav-link-card">
+                <div class="nav-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="nav-text">
+                  <span class="nav-title">শাখা ও এটিএম লোকেশন</span>
+                  <span class="nav-sub">নিকটস্থ ব্রাঞ্চ খুঁজুন</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+              </a>
+            </div>
+
+            <!-- BanglaPay App Promo -->
+            <div class="app-card">
+              <div class="app-card-header">
+                <div class="app-icon-circle">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+                <div>
+                  <h5>BanglaPay App</h5>
+                  <p>ব্যাংকিং হোক ঝুঁকিমুক্ত</p>
+                </div>
+              </div>
+              <div class="app-download-grid">
+                <a href="https://play.google.com/store/apps/details?id=com.sbac&hl=en&gl=US" target="_blank"
+                  class="app-btn">
+                  <i class="fa-brands fa-google-play"></i> Google Play
+                </a>
+                <a href="https://apps.apple.com/us/app/banglapay/id1445566322" target="_blank" class="app-btn">
+                  <i class="fa-brands fa-apple"></i> App Store
+                </a>
+              </div>
+            </div>
+
+            <!-- Admin Only: Engine Config Button -->
+            <button class="engine-config-btn admin-only" id="apiModalBtn">
+              <i class="fa-solid fa-sliders"></i> এআই ও এপিআই সেটিংস (Admin)
+            </button>
+          </div>
+        </aside>
+
+        <!-- Main Chat Workspace -->
+        <main class="chat-workspace">
+          <!-- Top Navbar Header -->
+          <header class="chat-navbar">
+            <div class="navbar-left">
+              <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </button>
+
+              <div class="assistant-profile">
+                <div class="assistant-avatar">
+                  <i class="fa-solid fa-headset"></i>
+                  <span class="online-indicator"></span>
+                </div>
+                <div class="assistant-meta">
+                  <div class="name-row">
+                    <h2 class="assistant-name">SBAC স্মার্ট ব্যাংকিং অ্যাসিস্ট্যান্ট</h2>
+                    <span class="verified-pill"><i class="fa-solid fa-circle-check"></i> Official</span>
+                  </div>
+                  <p class="assistant-tagline">২৪/৭ অনলাইন সহায়তা • বাংলা, ইংরেজি ও বাংলিশ</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="navbar-right">
+              <!-- View Switcher (Customer vs Admin) -->
+              <div class="view-switch-box" title="View পরিবর্তন করুন">
+                <button class="view-pill-btn active" id="customerViewBtn">
+                  <i class="fa-solid fa-user"></i> গ্রাহক ভিউ
+                </button>
+                <button class="view-pill-btn" id="adminViewBtn">
+                  <i class="fa-solid fa-shield-halved"></i> অ্যাডমিন ভিউ
+                </button>
+              </div>
+
+              <button class="header-action-btn" id="navbarLangBtn"
+                title="ভাষা পরিবর্তন করুন (Language: English / বাংলা)">
+                <span id="navbarLangText" style="font-weight: 800; font-size: 0.8rem;">EN</span>
+              </button>
+              <button class="header-action-btn" id="soundToggleBtn" title="সাউন্ড অন/অফ">
+                <i class="fa-solid fa-volume-high"></i>
+              </button>
+              <button class="header-action-btn" id="clearChatBtn" title="নতুন চ্যাট শুরু করুন">
+                <i class="fa-solid fa-arrow-rotate-right"></i>
+              </button>
+              <button class="header-action-btn admin-only" id="openSettingsQuickBtn" title="এপিআই সেটিংস">
+                <i class="fa-solid fa-gear"></i>
+              </button>
+
+              <a href="tel:16327" class="direct-call-pill">
+                <i class="fa-solid fa-phone"></i>
+                <span>16327</span>
+              </a>
+
+              <!-- Collapse / Minimize Fullscreen to Popup Widget -->
+              <button class="header-action-btn collapse-btn" id="collapseFullviewBtn"
+                title="ছোট উইন্ডোতে মিনিমাইজ করুন (Return to Widget)">
+                <i class="fa-solid fa-down-left-and-up-right-to-center"></i>
+              </button>
+            </div>
+          </header>
+
+          <!-- Scrollable Message Canvas -->
+          <div class="chat-canvas" id="messagesContainer">
+            <!-- Messages rendered via JS -->
+          </div>
+
+          <!-- Quick Suggestion Chips -->
+          <div class="chips-container">
+            <span class="chips-hint"><i class="fa-solid fa-lightbulb"></i> দ্রুত জানতে ক্লিক করুন:</span>
+            <div class="chips-list" id="quickChips">
+              <button class="chip-btn" data-query="সেভিংস অ্যাকাউন্ট খুলতে কি কি লাগবে?">
+                <i class="fa-solid fa-id-card"></i> অ্যাকাউন্ট খোলার নিয়ম
+              </button>
+              <button class="chip-btn" data-query="BanglaPay অ্যাপের ফিচার কি কি?">
+                <i class="fa-solid fa-mobile-screen"></i> BanglaPay App
+              </button>
+              <button class="chip-btn" data-query="ডিপিএস ও ফিক্সড ডিপোজিট স্কিম কি কি আছে?">
+                <i class="fa-solid fa-piggy-bank"></i> ডিপিএস ও FDR স্কিম
+              </button>
+              <button class="chip-btn" data-query="হেল্পলাইন ও কাস্টমার কেয়ার নম্বর কত?">
+                <i class="fa-solid fa-headset"></i> কাস্টমার কেয়ার
+              </button>
+              <button class="chip-btn" data-query="Islamic Banking সেবা সম্পর্কে জানতে চাই">
+                <i class="fa-solid fa-moon"></i> ইসলামিক ব্যাংকিং
+              </button>
+              <button class="chip-btn" data-query="ক্রেডিট কার্ড এবং ডেবিট কার্ড সুবিধা কি?">
+                <i class="fa-regular fa-credit-card"></i> কার্ড সেবা
+              </button>
+              <button class="chip-btn" data-query="লোন এবং ইন্টারেস্ট রেট কেমন?">
+                <i class="fa-solid fa-hand-holding-dollar"></i> ঋণ সুবিধা
+              </button>
+              <button class="chip-btn" data-query="ব্যাংকিং সময়সূচি ও হেড অফিস কোথায়?">
+                <i class="fa-solid fa-building"></i> হেড অফিস ও সময়
+              </button>
+            </div>
+          </div>
+
+          <!-- Bottom Chat Input Bar -->
+          <footer class="chat-footer">
+            <form class="message-form" id="chatForm">
+              <div class="input-box-wrapper">
+                <textarea id="messageInput"
+                  placeholder="এসবিএসি ব্যাংক সম্পর্কে যেকোনো প্রশ্ন লিখুন (বাংলা, English বা বাংলিশ)..."
+                  rows="1"></textarea>
+
+                <button type="button" class="mic-btn" id="voiceInputBtn" title="ভয়েসে বলুন (Microphone)">
+                  <i class="fa-solid fa-microphone"></i>
+                </button>
+              </div>
+
+              <button type="submit" class="send-message-btn" id="sendBtn" title="পাঠান (Send)">
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+
+            <div class="security-note">
+              <i class="fa-solid fa-shield-halved"></i> আপনার গোপন পিন (PIN), পাসওয়ার্ড বা ওটিপি (OTP) কারো সাথে শেয়ার
+              করবেন না।
+            </div>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal (Admin Only) -->
+  <div class="modal-backdrop" id="settingsModal">
+    <div class="modal-window">
+      <div class="modal-head">
+        <h4><i class="fa-solid fa-sliders"></i> চ্যাটবট এআই ইঞ্জিন ও এপিআই সেটিংস (Admin Panel)</h4>
+        <button class="modal-close" id="closeModalBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-content">
+        <div class="form-group">
+          <label class="group-title">ইঞ্জিন মোড নির্বাচন করুন:</label>
+          <div class="mode-select-grid">
+            <label class="mode-card active" id="modeBuiltInLabel">
+              <input type="radio" name="aiMode" value="builtin" checked id="modeBuiltIn">
+              <div class="mode-text">
+                <strong><i class="fa-solid fa-bolt text-amber"></i> বিল্ট-ইন অফলাইন মোড (Zero Config)</strong>
+                <span>কোনো API Key লাগবে না। <code>sbac_bank_info.txt</code> এর নলেজবেস থেকে নির্ভুল উত্তর দেবে।</span>
+              </div>
+            </label>
+
+            <label class="mode-card" id="modeGeminiLabel">
+              <input type="radio" name="aiMode" value="gemini" id="modeGemini">
+              <div class="mode-text">
+                <strong><i class="fa-solid fa-sparkles text-purple"></i> Google Gemini AI Mode</strong>
+                <span>Google Gemini 2.5/Flash API দিয়ে লাইভ জেনারেটিভ AI রেসপন্স।</span>
+              </div>
+            </label>
+
+            <label class="mode-card" id="modeOpenRouterLabel">
+              <input type="radio" name="aiMode" value="openrouter" id="modeOpenRouter">
+              <div class="mode-text">
+                <strong><i class="fa-solid fa-cloud text-amber"></i> OpenRouter AI (Google Gemma, Llama, Free Models)</strong>
+                <span>OpenRouter API দিয়ে Google Gemma, Llama 3 ও অন্যান্য ফ্রি মডেল।</span>
+              </div>
+            </label>
+
+            <label class="mode-card" id="modeOpenAILabel">
+              <input type="radio" name="aiMode" value="openai" id="modeOpenAI">
+              <div class="mode-text">
+                <strong><i class="fa-solid fa-robot text-green"></i> OpenAI / ChatGPT Mode</strong>
+                <span>OpenAI GPT-4o / GPT-3.5 API ব্যবহার করে লাইভ চ্যাট।</span>
+              </div>
+            </label>
+
+            <label class="mode-card" id="modeCustomLabel">
+              <input type="radio" name="aiMode" value="custom" id="modeCustom">
+              <div class="mode-text">
+                <strong><i class="fa-solid fa-network-wired text-blue"></i> কাস্টম API / Local LLM (Ollama)</strong>
+                <span>আপনার নিজস্ব ব্যাকএন্ড API বা লোকাল মডেল এন্ডপয়েন্ট।</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="api-fields-box" id="geminiFields" style="display: none;">
+          <label for="geminiApiKey">Gemini API Key:</label>
+          <div class="key-input-row">
+            <input type="password" id="geminiApiKey" placeholder="AIzaSy...">
+            <button type="button" class="btn-show-pass" data-target="geminiApiKey"><i
+                class="fa-solid fa-eye"></i></button>
+          </div>
+          <div class="mini-row" style="margin-top: 0.4rem;">
+            <select id="geminiModel" class="mini-select">
+              <option value="gemini-1.5-flash" selected>gemini-1.5-flash (Fast & Free Tier)</option>
+              <option value="gemini-2.0-flash">gemini-2.0-flash</option>
+              <option value="gemini-1.5-pro">gemini-1.5-pro</option>
+            </select>
+          </div>
+          <small>ফ্রি কী পেতে: <a href="https://aistudio.google.com/app/apikey"
+              target="_blank">aistudio.google.com</a></small>
+        </div>
+
+        <div class="api-fields-box" id="openaiFields" style="display: none;">
+          <label for="openaiApiKey">OpenAI API Key:</label>
+          <div class="key-input-row">
+            <input type="password" id="openaiApiKey" placeholder="sk-proj-...">
+            <button type="button" class="btn-show-pass" data-target="openaiApiKey"><i
+                class="fa-solid fa-eye"></i></button>
+          </div>
+          <div class="mini-row" style="margin-top: 0.4rem;">
+            <select id="openaiModel" class="mini-select">
+              <option value="gpt-4o-mini" selected>gpt-4o-mini (Fast & Cost Effective)</option>
+              <option value="gpt-4o">gpt-4o</option>
+              <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="api-fields-box" id="openrouterFields" style="display: none;">
+          <label for="openrouterApiKey">OpenRouter API Key:</label>
+          <div class="key-input-row">
+            <input type="password" id="openrouterApiKey" placeholder="sk-or-v1-...">
+            <button type="button" class="btn-show-pass" data-target="openrouterApiKey"><i class="fa-solid fa-eye"></i></button>
+          </div>
+          <div class="mini-row" style="margin-top: 0.4rem;">
+            <label for="openrouterModel" style="font-size: 0.75rem; margin-bottom: 2px;">Model Identifier (e.g. Google Gemma, Llama, DeepSeek):</label>
+            <input type="text" id="openrouterModel" class="mini-select" placeholder="google/gemma-2-9b-it:free" value="google/gemma-2-9b-it:free">
+          </div>
+          <div style="margin-top: 0.4rem;">
+            <small style="display: block; margin-bottom: 4px; font-weight: 600;">জনপ্রিয় ফ্রি মডেল নির্বাচন করুন:</small>
+            <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+              <button type="button" class="tag-btn openrouter-model-btn" data-model="google/gemma-2-9b-it:free" style="padding: 2px 8px; font-size: 0.72rem; border-radius: 4px; border: 1px solid #cbd5e1; background: #fff; cursor: pointer;">Gemma 2 9B (Free)</button>
+              <button type="button" class="tag-btn openrouter-model-btn" data-model="google/gemma-2-27b-it:free" style="padding: 2px 8px; font-size: 0.72rem; border-radius: 4px; border: 1px solid #cbd5e1; background: #fff; cursor: pointer;">Gemma 2 27B (Free)</button>
+              <button type="button" class="tag-btn openrouter-model-btn" data-model="meta-llama/llama-3.3-70b-instruct:free" style="padding: 2px 8px; font-size: 0.72rem; border-radius: 4px; border: 1px solid #cbd5e1; background: #fff; cursor: pointer;">Llama 3.3 70B (Free)</button>
+              <button type="button" class="tag-btn openrouter-model-btn" data-model="deepseek/deepseek-r1:free" style="padding: 2px 8px; font-size: 0.72rem; border-radius: 4px; border: 1px solid #cbd5e1; background: #fff; cursor: pointer;">DeepSeek R1 (Free)</button>
+            </div>
+          </div>
+          <small style="margin-top: 6px; display: block;">কী পেতে: <a href="https://openrouter.ai/keys" target="_blank">openrouter.ai/keys</a></small>
+        </div>
+
+        <div class="api-fields-box" id="customFields" style="display: none;">
+          <label for="customEndpointUrl">API Endpoint URL:</label>
+          <div class="key-input-row">
+            <input type="text" id="customEndpointUrl" placeholder="http://localhost:11434/api/generate">
+          </div>
+          <div class="key-input-row" style="margin-top: 0.4rem;">
+            <input type="password" id="customApiKey" placeholder="API Bearer Token (ঐচ্ছিক)">
+            <button type="button" class="btn-show-pass" data-target="customApiKey"><i
+                class="fa-solid fa-eye"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-foot">
+        <button class="btn-reset-default" id="resetDefaultBtn"><i class="fa-solid fa-rotate-left"></i> ডিফল্ট অফলাইন
+          মোড</button>
+        <button class="save-settings-btn" id="saveSettingsBtn"><i class="fa-solid fa-check"></i> সংরক্ষণ করুন
+          (Save)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="knowledge.js"></script>
+  <script src="chatbot.js?v=6"></script>
+</body>
+
+</html>
